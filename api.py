@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 
 # === Initialize Gemini API ===
-genai.configure(api_key=os.getenv("AIzaSyDf-61fNcKDOOxoC1ze0E1d3VvP8s9H6Ro"))
+genai.configure(api_key=os.getenv("enter_your_gemini_api"))
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # === FastAPI Setup ===
