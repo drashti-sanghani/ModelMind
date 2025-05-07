@@ -5,7 +5,7 @@ import google.generativeai as genai
 import os
 
 # Set your Gemini API key
-genai.configure(api_key="AIzaSyDf-61fNcKDOOxoC1ze0E1d3VvP8s9H6Ro")
+genai.configure(api_key="enter_your_gemini_api")
 
 # Load your CSV data
 def load_data(csv_path):
