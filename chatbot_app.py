@@ -7,7 +7,7 @@ CODES_DIR = "generated_codes"
 os.makedirs(CODES_DIR, exist_ok=True)
 
 st.set_page_config(page_title="ModelMind Chatbot", layout="centered")
-st.title("🔮 ModelMind Chatbot")
+st.title("🤖 ModelMind Chatbot")
 
 # === Sidebar: Upload CSV ===
 st.sidebar.header("Upload CSV")
